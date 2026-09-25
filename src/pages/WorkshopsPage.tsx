@@ -37,8 +37,24 @@ export const WorkshopsPage: React.FC<WorkshopsPageProps> = ({
     }
   };
 
+   };
+
+  const openMicrosoftForm = () => {
+    window.open('https://forms.cloud.microsoft/r/BJykiPwR6s', '_blank');
+  };
+
   return (
     <div className="flex flex-col w-full">
+      {/* FREE CAREER GUIDANCE WORKSHOP BANNER */}
+      <div className="bg-[#0a4100] text-white text-center py-4 px-4 sticky top-0 z-50">
+        <p className="font-bold">🎯 FREE Career Guidance Workshop - Oct 10, 17, 24 @ 5PM IST</p>
+        <button 
+          onClick={openMicrosoftForm}
+          className="mt-2 bg-white text-[#0a4100] font-bold px-8 py-2 rounded-full hover:bg-gray-100"
+        >
+          Register Now - Limited Seats
+        </button>
+      </div>
       {/* Immersive Sub-Hero Section */}
       <section className="relative w-full overflow-hidden bg-[#f5f3f0] py-10 md:py-12">
         <div className="absolute -right-24 -top-24 w-96 h-96 rounded-full bg-[#ff7a30]/10 blur-3xl pointer-events-none"></div>
