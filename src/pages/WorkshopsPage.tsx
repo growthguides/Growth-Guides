@@ -37,7 +37,6 @@ export const WorkshopsPage: React.FC<WorkshopsPageProps> = ({
     }
   };
 
-   };
 
   const openMicrosoftForm = () => {
     window.open('https://forms.cloud.microsoft/r/BJykiPwR6s', '_blank');
