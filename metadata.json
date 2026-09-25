@@ -1,0 +1,6 @@
+{
+  "name": "Growth Guides - Pathways & Mentoring for 9th and 10th",
+  "description": "Comprehensive career guidance, 1-on-1 academic coaching, stream roadmaps, and youth wellness mentoring for 9th and 10th grade students.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
