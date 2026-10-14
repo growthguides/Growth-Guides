@@ -46,7 +46,7 @@ export const WorkshopsPage: React.FC<WorkshopsPageProps> = ({
     <div className="flex flex-col w-full">
       {/* FREE CAREER GUIDANCE WORKSHOP BANNER */}
       <div className="bg-[#0a4100] text-white text-center py-4 px-4 sticky top-0 z-50">
-        <p className="font-bold">🎯 FREE Career Guidance Workshop - Oct 10, 17, 24 @ 5PM IST</p>
+        <p className="font-bold">🎯 Career Guidance Workshop - 24th Oct @ 5PM IST</p>
         <button 
           onClick={openMicrosoftForm}
           className="mt-2 bg-white text-[#0a4100] font-bold px-8 py-2 rounded-full hover:bg-gray-100"
